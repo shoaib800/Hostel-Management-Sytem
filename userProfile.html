@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Admin</title>
+    <link href="css/Contact.css"  rel="stylesheet" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+</head>
+<body>
+        <!-- ------- NAVBAR STARTS---------- -->
+    <nav class="navbar">
+        <div class="inner-width">
+            <img src="images/hostel2.png" class="logo">
+            <span>SUNFLOWER HOSTELS</span>
+            <a href="/" class="logo" alt="logo"></a>
+            <div class="navbar-menu">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">My Profile</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </nav>
+        <!-- ------- NAVBAR ENDS ---------- -->
+        <!-- ------- USER PROFILE STARTS ---------- -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <img width="100px" src="images/generaluser.png"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h4>Your Profile</h4>
+                                <span>Account Status - </span>
+                                <span class="badge badge-pill badge-info">Primary</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Roll Number</label>
+                                    <div class="form-group">
+                                        <input type="number" id="Roll_Number" class="form-group" placeholder="Roll Number"><br><br>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Full Name</label>
+                                    <div class="form-group">
+                                        <input type="text" id="Full_Name" class="form-group" placeholder="Full Name"><br><br>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Father Name</label>
+                                    <div class="form-group">
+                                        <input type="text" id="Father_Name" class="form-group" placeholder="Father Name"><br><br>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Department</label>
+                                    <div class="form-group">
+                                        <input type="text" id="Department" class="form-group" placeholder="Department"><br><br>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Address</label>
+                                    <div class="form-group">
+                                        <input type="number" id="Address" class="form-group" placeholder="Address"><br><br>
+                                    </div>
+                            </div>   
+                            <div class="col-md-6">
+                                <label>Mobile Number</label>
+                                    <div class="form-group">
+                                        <input type="number" id="Mobile_Number" class="form-group" placeholder="Mobile Number"><br><br>
+                                    </div>
+                            </div> 
+                                           
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Age</label>
+                                    <div class="form-group">
+                                        <input type="text" id="Age" class="form-group" placeholder="Age"><br><br>
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>D.O.B</label>
+                                    <div class="form-group">
+                                        <input type="text" id="D.O.B" class="form-group" placeholder="D.O.B"><br><br>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <span class="badge badge-pill badge-info">Login Credentials</span><br><br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>User Id</label>
+                                <input type="number" id="User_Id" class="form-group" placeholder="User ID" readonly="true"><br><br>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Old Password</label>
+                                <input type="number" id="Old Password" class="form-group" placeholder="Old Password" readonly="true"><br><br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="col-md-12">
+                                    <label>New Password</label>
+                                    <input type="number" id="New Password" class="form-group" placeholder="New Password" ><br><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <button type="button" class="btn btn-primary">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">Back to Home</a><br><br>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <img width="100px" src="images/hostel.png"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h4>Your Room</h4>
+                                <label class="badge badge-pill badge-info">Room</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <table class="table table-striped table-bordered">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Room_no.</th>
+                                        <th scope="col">Lorem, ipsum.</th>
+                                        <th scope="col">Lorem, ipsum.</th>
+                                        <th scope="col">Lorem, ipsum.</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Lorem, ipsum</td>
+                                        <td>Lorem, ipsum</td>
+                                        <td>Lorem, ipsum</td>
+                                      </tr>
+                                      
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+       
+        <!-- ------- USER PROFILE ENDS ---------- -->
+        <!-- ------- FOOTER STARTS ---------- -->
+    <footer>
+        <div class="inner-width">
+            <div class="copyright">
+                <div class="Organization">SUNFLOWER HOSTELS</div><br><br>
+                &copy; 2020 | Created and Designed by <a href="#" >Muhammad Shoaib</a>
+            </div>
+            <div class="socialmedia">
+                <a href="#"  class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="#"  class="fa fa-instagram" aria-hidden="true"></a>
+                <a href="#"  class="fa fa-linkedin" aria-hidden="true"></a>
+                <a href="#"  class="fa fa-twitter" aria-hidden="true"></a>
+                <a href="#"  class="fa fa-github" aria-hidden="true"></a>
+            </div>
+        </div>
+    </footer>
+        <!-- ------- FOOTER ENDS ---------- -->
+</body>
+</html>
