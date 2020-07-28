@@ -151,6 +151,10 @@ footer{
     font-size:16px;
     font-weight: 500;
 }
+.copyright a:hover{
+  color: #48dbfb;
+  text-decoration: none;
+}
 .socialmedia a {
     padding: 10px;
     color : #fff;

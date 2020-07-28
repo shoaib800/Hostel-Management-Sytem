@@ -1,5 +1,5 @@
-
 body {
+    position: relative;
     margin: 0;
     padding: 0;
     background: url(images/cover4.jpg);
@@ -7,30 +7,76 @@ body {
     background-size: cover;
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
+}
+/* ----------------- Navbar (Menu bar) -------------- */
+.navbar{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+    
+}
+.inner-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 40px;
+}
+
+.navbar .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-menu a{
+    color: black;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.navbar-menu a:hover{
+    color: #48dbfb;
+    text-decoration: none;
+}
+.logo{
+    width: 44px;
+    height: 32px;
+}
+/* ----------------- Nav bar (Menu bar) Ends-------------- */
+/* .login-form{
+    margin-top: 0px;
+} */
+.content{
+    position: relative;
+    /* margin-top: 350px; */
+    top: 110%;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 60px 32px;
+    background: rgb(0, 0, 0, 0.5);
+    width: 450px;
+    border-radius: 10px;  
+}
+.content header{
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 35px 0;
+    font-family: 'Montserrat',sans-serif;
 }
 form{
     display: block;
-    margin-top: 0em;
+    margin-top: 50px;
 }
 .form-group{
     margin: 20px 0;
 }
-.content{
-    background: rgba(0, 0, 0, 0.6117647058823529);
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 3em;
-    border-radius: 10px;
-    box-sizing: border-box;
-}
-.content header{
-    color: #fc3955;
-    font-size: 25px;
-    font-weight: 400;
-    margin: 0 0 30px 0;
-    font-family: 'Montserrat',sans-serif;
-    text-align: center;
-}
+
 .field{
     position: relative;
     height: 45px;
@@ -39,16 +85,14 @@ form{
     background: rgba(255,255,255,0.94);
 }
 .field input{
+    text-align: center;
     height: 100%;
     width: 100%;
     background:transparent ;
     color: white;
     font-size: 16px;
     font-family: 'poppins' ,sans-serif;
-}
-.space{
-    margin-top: 20px;
-}
+} 
 label{
     display: block;
     text-transform: uppercase;
@@ -68,66 +112,59 @@ input[type="text"], input[type="password"] {
     color: #000;
     padding: 1px 2px;
 }
+.field input [type="number"], input[type="password"]{
+    text-align: center;
+    height: 100%;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    font-family: 'poppins' ,sans-serif;
+}
 .field span{
     width: 40px;
-    padding: 10px 0 15px 15px;
+    line-height: 45px;
     display: inline-block;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
-    color:#fc3955 ;
+    color: #48dbfb ;
 }
 .pass{
-    text-align: left;
+    text-align: center;
     margin: 10px 0;
 }
 .pass a{
-    color: white;
+    color: #d62020;
     font-family: 'poppins' ,sans-serif;
     text-decoration: none;
+    font-weight: 700;
 }
 a:hover{
     text-decoration: underline;
 }
 button{
-    background: #fc3955;
-    color: #ffffff;
-    font-size: 13px;
+    background-color: #48dbfb;
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
     border: none;
-    padding: 12px 60px;
+    padding: 12px ;
     cursor: pointer;
     width: 100%;
 }
-button:hover {
-    background-color: #00BCD4;
-    transition-duration: 2s;
-}
-.fa{
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    color:#fc3955 ;
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    margin: 0 0 10px 0;
-}
+
 .one{
     color: #eee;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     margin-top: 2em;
 }
- h1{
-    margin: 0;
-    color: #ffffff;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    padding: 40px 0;
-}
+
 p{
     display: block;
     margin-block-start: 1em;
@@ -139,12 +176,33 @@ p{
     color: #00BCD4;
     text-decoration: none;
 }
-footer p{
-  color: #ffffff;
-  position: absolute;
-  padding: 50px;
+/* ----------------footer section --------------------- */
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px 0px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    bottom: 0;
 }
 
-footer :hover a{
-    text-decoration: underline;
+.copyright{
+    margin-bottom: 20px;
+    font-size:15px;
 }
+.copyright a{
+    color: #48dbfb;
+    font-size:16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.socialmedia a {
+    padding: 10px;
+    text-decoration: none;
+    color : #fff;
+}
+.socialmedia a:hover{
+    color: #48dbfb;
+}
+/* ----------------footer section Ends --------------------- */
