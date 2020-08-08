@@ -158,6 +158,7 @@ footer{
 .socialmedia a {
     padding: 10px;
     color : #fff;
+    text-decoration: none;
 }
 .socialmedia a:hover{
     color: #48dbfb;    

@@ -15,8 +15,7 @@ body {
     background-color: transparent;
     width: 100%;
     padding: 10px 0;
-    top: 0;
-    
+    top: 0;    
 }
 .inner-width{
     max-width: 1300px;
@@ -45,15 +44,10 @@ body {
     width: 44px;
     height: 32px;
 }
-/* ----------------- Nav bar (Menu bar) Ends-------------- */
-/* .login-form{
-    margin-top: 0px;
-} */
+/* ----------------- Navbar Ends-------------- */
 .content{
     position: relative;
-    /* margin-top: 350px; */
-    top: 110%;
-    bottom: 50px;
+    margin-top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -177,7 +171,6 @@ footer{
     padding: 40px 0px;
     text-align: center;
     position: relative;
-    top: 150px;
     bottom: 0;
 }
 
@@ -199,4 +192,4 @@ footer{
 .socialmedia a:hover{
     color: #48dbfb;
 }
-/* ----------------footer section Ends --------------------- */
+/* ----------------Footer  Ends --------------------- */
